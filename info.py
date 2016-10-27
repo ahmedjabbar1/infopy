@@ -43,7 +43,7 @@ def p(m):
     uid = m.chat.id
     bot.send_chat_action(uid, 'typing')
     bot.send_message(uid, "TeamTop development Telegram bot and web mastering \n\n developers : \n [negative](https://telegram.me/TeamTop) \n [Parham](https://telegram.me/DevTop)", parse_mode="Markdown")
-    bot.send_photo(uid, open('TeamTop.jpg'), caption="@TeamTop")
+    bot.send_photo(uid, open('IMG_٢٠١٦١٠٢٧_١٨٠٧٠٤.png'), caption="@TeamTop")
 
 @bot.message_handler(func=lambda m: m.chat.type == 'private', commands=['idme'])
 def test_handler(m):
